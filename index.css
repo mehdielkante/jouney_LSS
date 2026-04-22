@@ -1,12 +1,13 @@
 body {
     background-color: #eefcfa;
     margin: 0;
+    font-weight: 670;
+     font-family: 'Inter', sans-serif;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-
 }
 
 .navbar a {
@@ -23,13 +24,14 @@ body {
 }
 
 .btn {
-    padding: 13px 15px;
+    padding: 20px 40px;
     color: white;
     background-color: #008060;
     border-radius: 6px;
     border: none;
-    transition: 0.5s ease;
-    margin-right:67px
+    transition: background-color 0.3s ease;
+    margin:0px 90px 0px  0px;
+    font-size: 18px;
 }
 
 .navright {
@@ -67,7 +69,7 @@ hr {
 .navv {
     display: flex;
     list-style: none;
-    column-gap: 20px;
+    column-gap: 50px;
 }
 
 .navright a {
@@ -80,7 +82,7 @@ hr {
 }
 
 header {
-    border-bottom: 1px solid #5b5b5b;
+    border-bottom: 1px solid rgb(152, 152, 152);
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -93,9 +95,10 @@ header {
 .navdown{
     display: flex;
     list-style: none;
-    column-gap: 32px;
+    column-gap: 92px;
     align-items: center;
     text-decoration: none;
+    margin-left: 55px;
 }
 .line {
     border-bottom: 1px solid #5b5b5b;
@@ -105,28 +108,29 @@ header {
     margin:45px 0px 24px 45px;
  }
  p:first-of-type {
-    font-size: 48px;
+    font-size: 70px;
     margin: 50px 0px 0px 50px;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -1px;
     margin-bottom: 24px;
     color: #004c3f ;
-    font-family: 'Inter'
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
  }
 
  .btn2{
-     padding: 13px 15px;
+    padding: 20px 40px;
     color: white;
     background-color: #008060;
     border-radius: 6px;
     border: none;
     transition: background-color 0.3s ease;
-    margin:20px 0px 0px 55px;
+    margin:20px 0px 0px 110px;
+    font-size: 18px;
  }
 .question {
     color: #008060;
-    margin:20px 0px 0px 55px;
+    margin:20px 0px 0px 110px;
     display: block;
     font-weight: 700;
 }
@@ -142,10 +146,20 @@ header {
     right: 0px; 
     top:-359;
 }
+.facebook img{
+    width: 700px;
+}
 .text :nth-child(3){
     color: grey;
-    margin-left: 55px
+    margin-left: 55px;
 }
 #vip{
-    color:white;
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    color : black;
+    font-size: 48px;
+}
+.text{
+    margin-left: 55px;
 }
