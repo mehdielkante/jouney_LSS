@@ -19,7 +19,6 @@ body {
 }
 
 .btn:hover {
-    transition: 0.5s;
     background-color: #01644b;
 }
 
@@ -29,6 +28,7 @@ body {
     background-color: #008060;
     border-radius: 6px;
     border: none;
+    transition: 0.5s ease;
     margin-right:67px
 }
 
@@ -73,7 +73,6 @@ hr {
 .navright a {
     display: flex;
     justify-content: space-between;
-    display: flex;
     column-gap: 20px;
     align-items: center;
     text-decoration: none;
@@ -115,30 +114,38 @@ header {
     color: #004c3f ;
     font-family: 'Inter'
  }
- div:nth-child(3) {
-    color: #999999;
-  font-size: 18px;
-  line-height: 1.6;     
-  font-weight: 400;     
-  max-width: 550px;     
-  margin:0px 0px 32px 50px;
- }
+
  .btn2{
      padding: 13px 15px;
     color: white;
     background-color: #008060;
     border-radius: 6px;
     border: none;
-    margin-left:100px
+    transition: background-color 0.3s ease;
+    margin:20px 0px 0px 55px;
  }
-.question li a {
-  color: #008060;
-  margin-left: 60px;
+.question {
+    color: #008060;
+    margin:20px 0px 0px 55px;
+    display: block;
+    font-weight: 700;
 }
   .question{
    list-style: none;
 }
 .btn2:hover {
-    transition: 0.5s;
     background-color: #01644b;
+}
+.facebook{
+    margin-top: 500px;
+    position: absolute;
+    right: 0px; 
+    top:-359;
+}
+.text :nth-child(3){
+    color: grey;
+    margin-left: 55px
+}
+#vip{
+    color:white;
 }
